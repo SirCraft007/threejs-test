@@ -26,6 +26,9 @@ importers:
       three:
         specifier: ^0.167.1
         version: 0.167.1
+      three-stdlib:
+        specifier: ^2.32.2
+        version: 2.32.2(three@0.167.1)
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -45,6 +48,9 @@ importers:
       eslint-config-next:
         specifier: 14.2.5
         version: 14.2.5(eslint@8.57.0)(typescript@5.5.4)
+      fiber:
+        specifier: link:@types/react-three/fiber
+        version: link:@types/react-three/fiber
       postcss:
         specifier: ^8
         version: 8.4.41

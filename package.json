@@ -14,7 +14,8 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "three": "^0.167.1"
+    "three": "^0.167.1",
+    "three-stdlib": "^2.32.2"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,6 +24,7 @@
     "@types/three": "^0.167.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "fiber": "link:@types/react-three/fiber",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
